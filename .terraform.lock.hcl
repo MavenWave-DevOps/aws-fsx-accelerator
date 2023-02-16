@@ -41,3 +41,24 @@ provider "registry.terraform.io/hashicorp/random" {
     "zh:f143a9a5af42b38fed328a161279906759ff39ac428ebcfe55606e05e1518b93",
   ]
 }
+
+provider "registry.terraform.io/netapp/netapp-cloudmanager" {
+  version     = "21.11.0"
+  constraints = "21.11.0"
+  hashes = [
+    "h1:qNlMex1UFrV0vtQ9T0SA8tF3OeN11yA/0yqRgpJNMmE=",
+    "zh:2bc701a7d057ac050d412b1929af6d2115e5f7c5efe4376c1568dd91bbe13221",
+    "zh:46b7998f675a2e5c6f712d4e51cbe0671c5bc42755d3d358081ec2ed460b00c0",
+    "zh:5d088921bfa18739e96d2dbfbaa385340e6742b0dd3403eb141704a0b251c14c",
+    "zh:6056992271646fbbddc293d77dfbc7f822068cb5d50eed0123a4c7c9c2d937f3",
+    "zh:7102d47d8ae18ba921d0b0c77d6678dfd3c2e5c7fcb5ebd28a062fb778c5b0a1",
+    "zh:870c43672ac201ac5bac3648aeeae73e15f2f69f1a702f0794b3fff8c5dd2495",
+    "zh:b1150ab5b485a5e026590ac3d3b6d63f538504ee32eb02b230d0dd1b7c06c21c",
+    "zh:b3b2e84d42f7b1d9145eab03270dbae38cf909ae27bb2e1783fac1af0aac6e49",
+    "zh:d1eda1b0ad9d6f7b96a8bc589a61561d3deda119678fe9917523c92d3089c3b4",
+    "zh:e0c847cb2c5e8035441afc7dba2e94278951a84ca55dcba287aa86181ce91023",
+    "zh:e32ff7752fbbbdc0d188ba8e3c2c8dd10e451292998adce82eac301c96f4559f",
+    "zh:f0fab41c3aefd95995c1d294534cf30ca82cc9364eed9082b8dd2ca290b0299a",
+    "zh:f474da1133e107e74dba3db16acd57a90b4dc9c5b432addf0ba7194a7a577e89",
+  ]
+}

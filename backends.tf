@@ -1,10 +1,10 @@
-terraform {
-  cloud {
-    hostname     = "infra.mavenwave.net"
-    organization = "infra-mavenwave"
+# terraform {
+#   cloud {
+#     hostname     = "infra.mavenwave.net"
+#     organization = "infra-mavenwave"
 
-    workspaces {
-      name = "aws-fsx-accelerator"
-    }
-  }
-}
+#     workspaces {
+#       name = "aws-fsx-accelerator"
+#     }
+#   }
+# }
